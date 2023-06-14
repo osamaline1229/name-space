@@ -5,7 +5,7 @@ using System.Formats.Asn1;
 
 internal class Program
 {
-    private static void Main(string[] args)
+    public static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
         student chair = new student();
@@ -16,20 +16,23 @@ internal class Program
         dat.order();
 
         addition area1 = new addition();
-        area1.areaof();
+
+        addition.(area1);
+        
         
     }
 }
+
 
 namespace addElements
 {
     class addition
     {
         int area = 0;
-        public int areaof(int lenght, int wieght)
+        public void areaof(int lenght, int wieght)
         {
             area = lenght * wieght;
-            return area;
+            Console.WriteLine(area);
         }
     }
 }
