@@ -1,7 +1,7 @@
 ﻿
 using data;
 using subject;
-using System.Formats.Asn1;
+using System.Formats.Asn
 
 internal class Program
 {
